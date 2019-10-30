@@ -13,14 +13,14 @@ class App extends Component{
         return (
             <div>
                 <h1>Hello!</h1>
-                <p>My name is Brandon Escobar And I am too streesed with getting an internship for summer 2020.</p>
-                <p>But I have to at least try.</p> 
+                <p>My name is Brandon Escobar and I am a Computer Science and Engineering student at the University of California, Merced.</p>
+                <p>I am currently taking a Data Structures class and will be taking an Algorithms and Computer Organization class next semster.</p> 
                 {
                     this.state.displayBio ? (
                     <div>
-                        <p>I am going to Japan next year for a whole year.</p>
-                        <p>If I do I am going to be behind on a lot of things, so I have to do my best to get an internship this coming summer before I do.</p>
-                        <p>It will make my chance of getting an intenship for summer 2021 much higher. Which is, actually going to be pretty low since interviewing is going to be harder, at least I think.</p>
+                        <p>I also have a strong interest in exploring the world, which is why I will study abroad next year in Japan, where I will participate in undergraduate research.</p>
+                        <p>I have a strong interest in computer science and software, which is shown by my projects done out of the scope of my university classes.</p>
+                        <p>I am looking to expand on my knowledge of computer science through internships in summer 2020.</p>
                         <button onClick={this.toggleDisplayBio}>Show less</button>
                      </div>
                     ) : (
